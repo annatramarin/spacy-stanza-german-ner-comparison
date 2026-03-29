@@ -22,10 +22,10 @@ This project applies and compares two popular NLP libraries — **spaCy** and **
 
 ## Methodology
 
-1. **Preprocessing** — Extract titles from dataframe and flatten into a list of strings
-2. **spaCy NER** — Apply German spaCy pipeline to all titles
-3. **Stanza NER** — Apply German Stanza pipeline to all titles
-4. **Comparison** — Compare entity extraction across both models using agreement rate and entity overlap
+1. **Preprocessing** - Extract titles from dataframe and flatten into a list of strings
+2. **spaCy NER** - Apply German spaCy pipeline to all titles
+3. **Stanza NER** - Apply German Stanza pipeline to all titles
+4. **Comparison** - Compare entity extraction across both models using agreement rate and entity overlap
 
 ## Entity Types
 
@@ -62,4 +62,6 @@ The output CSVs contain all extracted entities per model with their type, and ca
 | [df_spacy_lg.csv](df_spacy_lg.csv) | Entities extracted by `de_core_news_lg` |
 | [df_stanza.csv](df_stanza.csv) | Entities extracted by Stanza `de` pipeline |
 
-*Coming soon — comparison of spaCy and Stanza NER outputs.*
+-------------------------
+
+# **Coming soon** — *comparison of spaCy and Stanza NER outputs.*
