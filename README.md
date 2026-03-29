@@ -48,6 +48,8 @@ python -m spacy download de_core_news_md
 
 Open and run the notebook `ner_comparison.ipynb` in Google Colab or Jupyter.
 
+*IN PROGRESS: only Spacy at the moment, Stanza coming soon*
+
 ## Results
 
 *Coming soon — comparison of spaCy and Stanza NER outputs on German news titles.*
