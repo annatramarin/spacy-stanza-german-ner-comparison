@@ -64,4 +64,4 @@ The output CSVs contain all extracted entities per model with their type, and ca
 
 -------------------------
 
-# **Coming soon** — *comparison of spaCy and Stanza NER outputs.*
+### **Coming soon** — *comparison of spaCy and Stanza NER outputs.*
