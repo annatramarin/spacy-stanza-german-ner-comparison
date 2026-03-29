@@ -16,9 +16,9 @@ This project applies and compares two popular NLP libraries — **spaCy** and **
 ## Models Used
 
 | Library | Model |
-|--------|-------|
-| spaCy  | `de_core_news_sm` (German, small) |
-| Stanza | `de` German pipeline with `tokenize` and `ner` processors |
+|---------|-------|
+| spaCy   | `de_core_news_sm`, `de_core_news_md`, `de_core_news_lg` |
+| Stanza  | `de` pipeline with `tokenize` and `ner` |
 
 ## Methodology
 
@@ -41,15 +41,25 @@ This project applies and compares two popular NLP libraries — **spaCy** and **
 ```bash
 pip install spacy
 pip install stanza
+python -m spacy download de_core_news_sm
 python -m spacy download de_core_news_md
+python -m spacy download de_core_news_lg
 ```
 
 ## Usage
 
 Open and run the notebook `ner_comparison.ipynb` in Google Colab or Jupyter.
 
-*IN PROGRESS: only Spacy at the moment, Stanza coming soon*
 
 ## Results
 
-*Coming soon — comparison of spaCy and Stanza NER outputs on German news titles.*
+The output CSVs contain all extracted entities per model with their type, and can be browsed directly on GitHub.
+
+| File | Description |
+|------|-------------|
+| [df_spacy_sm.csv](df_spacy_sm.csv) | Entities extracted by `de_core_news_sm` |
+| [df_spacy_md.csv](df_spacy_md.csv) | Entities extracted by `de_core_news_md` |
+| [df_spacy_lg.csv](df_spacy_lg.csv) | Entities extracted by `de_core_news_lg` |
+| [df_stanza.csv](df_stanza.csv) | Entities extracted by Stanza `de` pipeline |
+
+*Coming soon — comparison of spaCy and Stanza NER outputs.*
