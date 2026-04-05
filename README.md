@@ -64,4 +64,19 @@ The output CSVs contain all extracted entities per model with their type, and ca
 
 -------------------------
 
-### **Coming soon** — *comparison of spaCy and Stanza NER outputs.*
+### Comparison of spaCy and Stanza NER outputs
+
+#### Quick insights
+
+Below is an example of stanza correctly extracting Named Entities, as opposed to spaCy models.
+
+![alt text](images/stanza_hohe_erwartungen.png.png)
+
+The small spaCy model tags *"Hohe Erwartungen"* (high expectations) as LOC
+
+![alt text](images/small_model_hohe_erwartungen.png)
+
+The medium and large spaCy models still erroneously tag *"Hohe Erwartungen"* as a Named Entity, but as MISC
+![alt text](images/large_model_hohe_erwartungen.png)
+
+
