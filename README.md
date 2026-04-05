@@ -70,7 +70,7 @@ The output CSVs contain all extracted entities per model with their type, and ca
 
 Below is an example of stanza correctly extracting Named Entities, as opposed to spaCy models.
 
-![alt text](images/stanza_hohe_erwartungen.png.png)
+![alt text](images/stanza_hohe_erwartungen.png)
 
 The small spaCy model tags *"Hohe Erwartungen"* (high expectations) as LOC
 
