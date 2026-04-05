@@ -7,7 +7,7 @@ Comparing Named Entity Recognition (NER) on German news titles using spaCy and S
 
 ## Project Overview
 
-This project applies and compares two popular NLP libraries — **spaCy** and **Stanza** — for Named Entity Recognition on a dataset of 16,860 German news article titles. The goal is to analyze how each model identifies and classifies entities such as locations, persons, and organizations in German text.
+This project applies and compares two popular NLP libraries, **spaCy** and **Stanza**, for Named Entity Recognition on a dataset of 16,860 German news article titles. The goal is to analyze how each model identifies and classifies entities such as locations, persons, and organizations in German text.
 
 ## Dataset
 
