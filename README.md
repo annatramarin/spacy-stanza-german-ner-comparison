@@ -49,7 +49,7 @@ python -m spacy download de_core_news_lg
 ## Usage
 
 Open and run the following notebooks in Google Colab or Jupyter:
-- `01_German_NER_pipeline.ipynb`
+- `01_German_NER_pipeline.ipynb` (note that the T4 GPU was used to run Stanza in Google Colab)
 - `02_German_NER_evaluation.ipynb`
 
 
@@ -90,7 +90,7 @@ The medium and large spaCy models still erroneously tag *"Hohe Erwartungen"* as 
 | Stanza only (not in spaCy lg) | 620 |
 
 ### Agreement Rate
-spaCy lg and Stanza agreed on **14.2%** of all entities found — meaning the two libraries differ substantially on German news text.
+spaCy lg and Stanza agreed on **14.2%** of all entities found, which means the two libraries differ substantially on German news text.
 
 ### Total Unique Entities per Model
 | Model | Unique (entity, label) pairs |
