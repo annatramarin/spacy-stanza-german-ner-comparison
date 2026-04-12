@@ -48,7 +48,9 @@ python -m spacy download de_core_news_lg
 
 ## Usage
 
-Open and run the notebook `ner_comparison.ipynb` in Google Colab or Jupyter.
+Open and run the following notebooks in Google Colab or Jupyter:
+- `German_NER_pipeline.ipynb`
+- `German_NER_evaluation.ipynb`
 
 
 ## Results
