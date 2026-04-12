@@ -49,8 +49,8 @@ python -m spacy download de_core_news_lg
 ## Usage
 
 Open and run the following notebooks in Google Colab or Jupyter:
-- `German_NER_pipeline.ipynb`
-- `German_NER_evaluation.ipynb`
+- `01_German_NER_pipeline.ipynb`
+- `02_German_NER_evaluation.ipynb`
 
 
 ## Results
@@ -80,6 +80,49 @@ The small spaCy model tags *"Hohe Erwartungen"* (high expectations) as LOC
 
 The medium and large spaCy models still erroneously tag *"Hohe Erwartungen"* as a Named Entity, but as MISC
 ![alt text](images/large_model_hohe_erwartungen.png)
+
+
+### Entity Overlap
+| Comparison | Count |
+|---|---|
+| Found by all four models | 394 |
+| spaCy lg only (not in Stanza) | 2,728 |
+| Stanza only (not in spaCy lg) | 620 |
+
+### Agreement Rate
+spaCy lg and Stanza agreed on **14.2%** of all entities found — meaning the two libraries differ substantially on German news text.
+
+### Total Unique Entities per Model
+| Model | Unique (entity, label) pairs |
+|---|---|
+| spaCy sm | see plot |
+| spaCy md | see plot |
+| spaCy lg | see plot |
+| Stanza | see plot |
+
+
+![Entity counts per model](images/entities_per_model.png)
+
+
+
+### Label Confusion (spaCy lg vs Stanza)
+152 entities were found by both models but assigned different labels.
+The most common disagreements were `MISC` vs `ORG` and `LOC` vs `ORG`,
+reflecting genuine ambiguity in German text — e.g. *Corona* (LOC vs ORG),
+*Twitter* (MISC vs ORG), *Museum für Alle* (LOC vs ORG).
+
+![Confusion heatmap](images/confusion_matrix.png)
+
+### Output Files
+| File | Description |
+|---|---|
+| [df_spacy_sm.csv](df_spacy_sm.csv) | Entities extracted by `de_core_news_sm` |
+| [df_spacy_md.csv](df_spacy_md.csv) | Entities extracted by `de_core_news_md` |
+| [df_spacy_lg.csv](df_spacy_lg.csv) | Entities extracted by `de_core_news_lg` |
+| [df_stanza.csv](df_stanza.csv) | Entities extracted by Stanza `de` pipeline |
+| [all_models_intersection.csv](all_models_intersection.csv) | Entities agreed on by all four models |
+| [spacy_stanza_disagreements.csv](spacy_stanza_disagreements.csv) | Entities labelled differently by spaCy lg and Stanza |
+
 
 
 ### *Comparison to be continued* つづく 
