@@ -1,0 +1,153 @@
+entity,spacy_label,stanza_label
+Computer Vision,MISC,ORG
+UN Office of the High Commissioner for Human Rights,ORG,MISC
+SmartPlant,MISC,ORG
+New Shepard,MISC,ORG
+Big Data Analytics,MISC,ORG
+Bayerischen Alpenregion,LOC,ORG
+Covid-19,LOC,ORG
+Museum für Alle Menschen,LOC,ORG
+Berlinale,MISC,ORG
+Disaster Preparedness and Management in the Face of Extreme Weather Events,ORG,MISC
+Encouraging Sustainability and Environmental Protection,ORG,MISC
+Elbphilharmonie,LOC,ORG
+Amazon Prime,ORG,MISC
+Big Data,MISC,ORG
+Flightless Birds,PER,ORG
+Transboundary Water Management,MISC,ORG
+On-Demand-Ära,ORG,MISC
+Deutsches,MISC,LOC
+Religious Tolerance and Pluralism in the Heart of Europe,ORG,MISC
+Corona,LOC,ORG
+ITCF,LOC,ORG
+Deutsche,MISC,LOC
+Bust,MISC,PER
+Schiller-Theater,MISC,ORG
+deutscher,MISC,LOC
+deutschem,MISC,LOC
+Erasmus+,ORG,PER
+kanadische,MISC,LOC
+Hoffenheim,ORG,LOC
+Indian Wells,MISC,LOC
+Science and Society - How Wissenschaftspolitik Impacts our Daily Lives,ORG,MISC
+A Cornerstone of Democracy and Social Inclusion,ORG,MISC
+Vereinigten Nationen,ORG,LOC
+Erneuerbare-Energien-Gesetz,MISC,ORG
+Hate Crimes,ORG,MISC
+Physical Theatre,LOC,ORG
+Corona-Krise,MISC,ORG
+Hamlet,MISC,ORG
+Content Creators,MISC,ORG
+German,MISC,LOC
+Weltmächte,ORG,LOC
+Fintech,LOC,ORG
+Paris Agreement,MISC,ORG
+Documenta,MISC,ORG
+ISS,MISC,LOC
+deutsche,MISC,LOC
+Green Economy,ORG,MISC
+Rheingau Musik Festival,MISC,ORG
+Google,MISC,ORG
+deutschen,MISC,LOC
+KI,MISC,ORG
+Brexit,MISC,PER
+IBM Watson,MISC,ORG
+Triple Helix,MISC,ORG
+Netflix,MISC,ORG
+Demeter,PER,ORG
+DZIF,PER,ORG
+Haaland,LOC,PER
+Triple Bottom Line,MISC,ORG
+französischen,MISC,LOC
+Ukraine-Kriegs,ORG,MISC
+ECOncrete,MISC,ORG
+amerikanischen,MISC,LOC
+Facebook,MISC,ORG
+N26,MISC,ORG
+Made in Germany,ORG,MISC
+EU-DSGVO,PER,ORG
+Olympischen Spielen,MISC,ORG
+Transatlantische,MISC,LOC
+Deutschen,MISC,LOC
+Twitter,MISC,ORG
+FIFA World Cup,MISC,ORG
+Homeoffice,MISC,ORG
+South China Sea Expedition,LOC,ORG
+Beyond academics,MISC,ORG
+Unlocking Opportunities Through Quality Education,ORG,MISC
+Formel 1,MISC,ORG
+Giant Pandas,ORG,PER
+Leipzig,ORG,LOC
+Promoting Democracy and Community Cohesion through Education,ORG,MISC
+Harnessing Technology to Foster Stronger Connections Within Our Communities,ORG,MISC
+Japan,ORG,LOC
+Building Information Modeling,MISC,ORG
+One Belt,LOC,MISC
+Green Jobs,MISC,PER
+Strengthening the Nation's Research Capabilities,ORG,MISC
+chinesischen,MISC,LOC
+Street Art,LOC,ORG
+Digital Natives,MISC,ORG
+Environmental science advances: Climate change and sustainable solutions for a better future,ORG,MISC
+Reducing Poverty and Inequality,LOC,MISC
+Co,MISC,ORG
+New Technologies for Monitoring and Managing Leakages in the Water Supply System,ORG,MISC
+Sputnik,MISC,ORG
+Chinesische,MISC,LOC
+Tech for Good,MISC,ORG
+Olympischen Spiele,MISC,ORG
+Starship,MISC,ORG
+Banksy,PER,ORG
+German Accelerator,MISC,ORG
+Tiny House,MISC,ORG
+Ocrevus,PER,ORG
+Skooba,PER,ORG
+europäischen,MISC,LOC
+Spotlight,MISC,ORG
+Green Solutions,LOC,ORG
+Costa Rica,ORG,LOC
+Natural Disasters and Society: The Importance of Weather and Natural Catastrophes,ORG,MISC
+Green Living,MISC,ORG
+Apollo,MISC,LOC
+DISQ,MISC,ORG
+Museum für Alle,LOC,ORG
+Assad,ORG,PER
+deutsches,MISC,LOC
+BIM,MISC,ORG
+Bayern München,LOC,ORG
+syrischen,MISC,LOC
+Olympia,PER,ORG
+Museum Folkwang,LOC,ORG
+Europapokal,MISC,ORG
+amerikanische,MISC,LOC
+Deutscher Kulturpreis,MISC,ORG
+Sunfire,PER,ORG
+Ansbachs,LOC,PER
+Deutscher,MISC,LOC
+Green Climate Fund,LOC,MISC
+Internationalen Raumstation,MISC,LOC
+Building Stronger Communities through Quality Education,ORG,MISC
+Ein Spiegel unserer vernetzten Welt,ORG,MISC
+COVID-19,LOC,ORG
+Cyberdefense,PER,ORG
+YouTube,MISC,ORG
+Neuen Mitte,MISC,LOC
+Schaubühne Theatre,LOC,ORG
+Indopazifikraum,MISC,LOC
+XYZ,ORG,LOC
+Bidens,LOC,PER
+Bayern Münchens,MISC,ORG
+russische,MISC,LOC
+Stuttgarter,MISC,LOC
+FlixMobility,MISC,ORG
+Urban Green Infrastructure,MISC,ORG
+Bosch Areal,LOC,ORG
+Osteuropäische,MISC,LOC
+Integrating Technologies and Strategies for Efficient Water Use,ORG,MISC
+Collaborative Efforts for Sustainable Water Resource Utilization,ORG,MISC
+Champions League,MISC,ORG
+Chinesischer,MISC,LOC
+Tiny Houses,MISC,ORG
+Artemis,PER,ORG
+COVAX,ORG,MISC
+Disney+,MISC,ORG
